@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53E1B6971E5EDB090035CFF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6961E5EDB090035CFF3 /* main.m */; };
+		53E1B69A1E5EDB090035CFF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6991E5EDB090035CFF3 /* AppDelegate.m */; };
+		53E1B6A21E5EDB090035CFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B6A11E5EDB090035CFF3 /* Assets.xcassets */; };
+		53E1B6A51E5EDB090035CFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B6A31E5EDB090035CFF3 /* LaunchScreen.storyboard */; };
+		53E1B6AE1E5EDE350035CFF3 /* ZDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6AD1E5EDE350035CFF3 /* ZDBaseViewController.m */; };
+		53E1B6B21E5EDE550035CFF3 /* ZDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6B01E5EDE550035CFF3 /* ZDMainViewController.m */; };
+		53E1B6B31E5EDE550035CFF3 /* ZDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B6B11E5EDE550035CFF3 /* ZDMainViewController.xib */; };
+		53E1B6B61E5EDE7E0035CFF3 /* ZDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6B51E5EDE7E0035CFF3 /* ZDFirstViewController.m */; };
+		53E1B6B91E5EDE890035CFF3 /* ZDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6B81E5EDE890035CFF3 /* ZDSecondViewController.m */; };
+		53E1B6BC1E5EDFB00035CFF3 /* ZDModuleChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6BB1E5EDFB00035CFF3 /* ZDModuleChangeVC.m */; };
+		53E1B6BE1E5EE2950035CFF3 /* LiveCast.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B6BD1E5EE2950035CFF3 /* LiveCast.plist */; };
+		53E1B6C21E5EF71D0035CFF3 /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1B6C11E5EF71D0035CFF3 /* UIViewController+TopViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53E1B6921E5EDB090035CFF3 /* 两个页面间的解耦.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "两个页面间的解耦.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E1B6961E5EDB090035CFF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53E1B6981E5EDB090035CFF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53E1B6991E5EDB090035CFF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53E1B6A11E5EDB090035CFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53E1B6A41E5EDB090035CFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53E1B6A61E5EDB090035CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E1B6AC1E5EDE350035CFF3 /* ZDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBaseViewController.h; sourceTree = "<group>"; };
+		53E1B6AD1E5EDE350035CFF3 /* ZDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBaseViewController.m; sourceTree = "<group>"; };
+		53E1B6AF1E5EDE550035CFF3 /* ZDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDMainViewController.h; sourceTree = "<group>"; };
+		53E1B6B01E5EDE550035CFF3 /* ZDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDMainViewController.m; sourceTree = "<group>"; };
+		53E1B6B11E5EDE550035CFF3 /* ZDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDMainViewController.xib; sourceTree = "<group>"; };
+		53E1B6B41E5EDE7E0035CFF3 /* ZDFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFirstViewController.h; sourceTree = "<group>"; };
+		53E1B6B51E5EDE7E0035CFF3 /* ZDFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFirstViewController.m; sourceTree = "<group>"; };
+		53E1B6B71E5EDE890035CFF3 /* ZDSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDSecondViewController.h; sourceTree = "<group>"; };
+		53E1B6B81E5EDE890035CFF3 /* ZDSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDSecondViewController.m; sourceTree = "<group>"; };
+		53E1B6BA1E5EDFB00035CFF3 /* ZDModuleChangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDModuleChangeVC.h; sourceTree = "<group>"; };
+		53E1B6BB1E5EDFB00035CFF3 /* ZDModuleChangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDModuleChangeVC.m; sourceTree = "<group>"; };
+		53E1B6BD1E5EE2950035CFF3 /* LiveCast.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LiveCast.plist; sourceTree = "<group>"; };
+		53E1B6BF1E5EE42C0035CFF3 /* Macros.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.pch; sourceTree = "<group>"; };
+		53E1B6C01E5EF71D0035CFF3 /* UIViewController+TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopViewController.h"; sourceTree = "<group>"; };
+		53E1B6C11E5EF71D0035CFF3 /* UIViewController+TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E1B68F1E5EDB090035CFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E1B6891E5EDB090035CFF3 = {
+			isa = PBXGroup;
+			children = (
+				53E1B6941E5EDB090035CFF3 /* 两个页面间的解耦 */,
+				53E1B6931E5EDB090035CFF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E1B6931E5EDB090035CFF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E1B6921E5EDB090035CFF3 /* 两个页面间的解耦.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E1B6941E5EDB090035CFF3 /* 两个页面间的解耦 */ = {
+			isa = PBXGroup;
+			children = (
+				53E1B6981E5EDB090035CFF3 /* AppDelegate.h */,
+				53E1B6991E5EDB090035CFF3 /* AppDelegate.m */,
+				53E1B6AC1E5EDE350035CFF3 /* ZDBaseViewController.h */,
+				53E1B6AD1E5EDE350035CFF3 /* ZDBaseViewController.m */,
+				53E1B6AF1E5EDE550035CFF3 /* ZDMainViewController.h */,
+				53E1B6B01E5EDE550035CFF3 /* ZDMainViewController.m */,
+				53E1B6B11E5EDE550035CFF3 /* ZDMainViewController.xib */,
+				53E1B6B41E5EDE7E0035CFF3 /* ZDFirstViewController.h */,
+				53E1B6B51E5EDE7E0035CFF3 /* ZDFirstViewController.m */,
+				53E1B6B71E5EDE890035CFF3 /* ZDSecondViewController.h */,
+				53E1B6B81E5EDE890035CFF3 /* ZDSecondViewController.m */,
+				53E1B6BA1E5EDFB00035CFF3 /* ZDModuleChangeVC.h */,
+				53E1B6BB1E5EDFB00035CFF3 /* ZDModuleChangeVC.m */,
+				53E1B6C01E5EF71D0035CFF3 /* UIViewController+TopViewController.h */,
+				53E1B6C11E5EF71D0035CFF3 /* UIViewController+TopViewController.m */,
+				53E1B6BD1E5EE2950035CFF3 /* LiveCast.plist */,
+				53E1B6BF1E5EE42C0035CFF3 /* Macros.pch */,
+				53E1B6A11E5EDB090035CFF3 /* Assets.xcassets */,
+				53E1B6A31E5EDB090035CFF3 /* LaunchScreen.storyboard */,
+				53E1B6A61E5EDB090035CFF3 /* Info.plist */,
+				53E1B6951E5EDB090035CFF3 /* Supporting Files */,
+			);
+			path = "两个页面间的解耦";
+			sourceTree = "<group>";
+		};
+		53E1B6951E5EDB090035CFF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E1B6961E5EDB090035CFF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E1B6911E5EDB090035CFF3 /* 两个页面间的解耦 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E1B6A91E5EDB090035CFF3 /* Build configuration list for PBXNativeTarget "两个页面间的解耦" */;
+			buildPhases = (
+				53E1B68E1E5EDB090035CFF3 /* Sources */,
+				53E1B68F1E5EDB090035CFF3 /* Frameworks */,
+				53E1B6901E5EDB090035CFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "两个页面间的解耦";
+			productName = "两个页面间的解耦";
+			productReference = 53E1B6921E5EDB090035CFF3 /* 两个页面间的解耦.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E1B68A1E5EDB090035CFF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZD;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhudong;
+				TargetAttributes = {
+					53E1B6911E5EDB090035CFF3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53E1B68D1E5EDB090035CFF3 /* Build configuration list for PBXProject "两个页面间的解耦" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53E1B6891E5EDB090035CFF3;
+			productRefGroup = 53E1B6931E5EDB090035CFF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E1B6911E5EDB090035CFF3 /* 两个页面间的解耦 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E1B6901E5EDB090035CFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E1B6B31E5EDE550035CFF3 /* ZDMainViewController.xib in Resources */,
+				53E1B6A51E5EDB090035CFF3 /* LaunchScreen.storyboard in Resources */,
+				53E1B6A21E5EDB090035CFF3 /* Assets.xcassets in Resources */,
+				53E1B6BE1E5EE2950035CFF3 /* LiveCast.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E1B68E1E5EDB090035CFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E1B69A1E5EDB090035CFF3 /* AppDelegate.m in Sources */,
+				53E1B6C21E5EF71D0035CFF3 /* UIViewController+TopViewController.m in Sources */,
+				53E1B6B61E5EDE7E0035CFF3 /* ZDFirstViewController.m in Sources */,
+				53E1B6971E5EDB090035CFF3 /* main.m in Sources */,
+				53E1B6AE1E5EDE350035CFF3 /* ZDBaseViewController.m in Sources */,
+				53E1B6B91E5EDE890035CFF3 /* ZDSecondViewController.m in Sources */,
+				53E1B6B21E5EDE550035CFF3 /* ZDMainViewController.m in Sources */,
+				53E1B6BC1E5EDFB00035CFF3 /* ZDModuleChangeVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53E1B6A31E5EDB090035CFF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E1B6A41E5EDB090035CFF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E1B6A71E5EDB090035CFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53E1B6A81E5EDB090035CFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53E1B6AA1E5EDB090035CFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhudong/Documents/Demo/2016.12.4以后/两个页面间的解耦/两个页面间的解耦/Macros.pch";
+				INFOPLIST_FILE = "两个页面间的解耦/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53E1B6AB1E5EDB090035CFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhudong/Documents/Demo/2016.12.4以后/两个页面间的解耦/两个页面间的解耦/Macros.pch";
+				INFOPLIST_FILE = "两个页面间的解耦/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E1B68D1E5EDB090035CFF3 /* Build configuration list for PBXProject "两个页面间的解耦" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E1B6A71E5EDB090035CFF3 /* Debug */,
+				53E1B6A81E5EDB090035CFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E1B6A91E5EDB090035CFF3 /* Build configuration list for PBXNativeTarget "两个页面间的解耦" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E1B6AA1E5EDB090035CFF3 /* Debug */,
+				53E1B6AB1E5EDB090035CFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53E1B68A1E5EDB090035CFF3 /* Project object */;
+}

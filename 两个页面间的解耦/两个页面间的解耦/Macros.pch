@@ -1,0 +1,15 @@
+//
+//  Macros.pch
+//  两个页面间的解耦
+//
+//  Created by zhudong on 2017/2/23.
+//  Copyright © 2017年 zhudong. All rights reserved.
+//
+
+#ifndef Macros_pch
+#define Macros_pch
+
+#define GXUserDefaults [NSUserDefaults standardUserDefaults]
+#import "ZDModuleChangeVC.h"
+
+#endif /* Macros_pch */
